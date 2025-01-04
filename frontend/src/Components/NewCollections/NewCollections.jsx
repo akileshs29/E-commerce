@@ -9,7 +9,7 @@ const NewCollections = () => {
   const [new_collection,setNew_collection] = useState([]);
 
   useEffect(()=>{
-    fetch('https://e-commerce-backend-p8pq.onrender.com/newcollection')
+    fetch('https://e-commerce-backend-6ljq.onrender.com/newcollection')
     .then((response)=>response.json())
     .then((data)=>setNew_collection(data));
 

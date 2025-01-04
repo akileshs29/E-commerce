@@ -8,7 +8,7 @@ const Popular = () => {
   const [popularProducts,setPopularProducts] = useState([]);
 
   useEffect(()=>{
-    fetch('https://e-commerce-backend-p8pq.onrender.com/popularinFan')
+    fetch('https://e-commerce-backend-6ljq.onrender.com/popularinFan')
     .then((response)=>response.json())
     .then((data)=>setPopularProducts(data));
 
